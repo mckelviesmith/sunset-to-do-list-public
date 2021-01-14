@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@500&display=swap');
+
+html {
+background: linear-gradient(179deg, rgba(255, 148, 160, 0.96) 10.92%,
+                                    rgba(255, 128, 197, 0.93) 45.8%,
+                                    rgba(146, 213, 246, 0.95) 85.29%);
+background-size: cover;
+background-repeat:no-repeat;
+min-height: 100%;
+}
+
+div {
+    font-size:36pt;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 1px #e3397e;
+}
+
+
+a:link {text-decoration: none; color: white;}
+a:visited {color: white;}
+a:hover {color: #61c2f2;}

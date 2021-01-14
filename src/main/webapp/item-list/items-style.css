@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@500&display=swap');
+html {
+    min-height: 100%;
+}
+
+*:focus {
+    outline: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+div {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #61c2f2;
+}
+
+h1 {
+    font-size: 42pt;
+    color: white;
+    font-weight: bold;
+    text-shadow:1px 2px 1px #48abdb;
+}
+
+th, td, tr {
+    padding: 10px;
+    text-align: left;
+}
+
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 22pt;
+    text-shadow:1px 2px 1px #48abdb;
+}
+
+a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow:1px 2px 1px #48abdb;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fc7cc0;
+    font-weight: bold;
+    text-shadow:1px 1px 1px #d750b1;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* i have to do something! button */
+button {
+    box-shadow:1px 1px #d750b1;
+    background: #fc7cc0;
+    border-radius:42px;
+    border:1px solid #fa8ed6;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+    padding:10px 20px;
+    text-decoration:none;
+    text-shadow:1px 1px 1px #de358f;
+    margin-top: 20px;
+}
+
+button:active {
+    border-radius:42px;
+    position:relative;
+    top:5px;
+}
+
+/* cloud checkbox */
+i.fas {
+    cursor:pointer;
+    padding-left: 5px;
+    color: white;
+    /*text-shadow: 2px 2px 3px #74c1e8; */
+    filter:drop-shadow(2px 2px #48abdb);
+}
+
+i.fas:hover {
+    cursor:pointer;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff91cc), to(#ffad85));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*text-shadow: 2px 2px 3px #74c1e8; */
+    filter:drop-shadow(2px 2px #48abdb);
+}
+
+div checkbox {
+    cursor:pointer;
+    position: relative;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+div span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+}
+
+div span::after {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+}
+
+div input[type="checkbox"] {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+    color: white;
+}

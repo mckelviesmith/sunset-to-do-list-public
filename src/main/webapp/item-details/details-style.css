@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@500&display=swap');
+
+html {
+    min-height: 100%;
+}
+
+*:focus {
+    outline: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+div {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#description, #deadline {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 30pt;
+    text-shadow:1px 2px 1px #48abdb;
+}
+
+body {
+    background-color: #61c2f2;
+}
+
+h1 {
+    font-size: 40pt;
+    color: white;
+    font-weight: bold;
+    text-shadow:1px 2px 1px #48abdb;
+    padding-bottom: 1%;
+}
+
+a.button {
+    box-shadow:1px 1px #d750b1;
+    background: #fc7cc0;
+    border-radius:42px;
+    border:1px solid #fa8ed6;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-size:22px;
+    text-decoration:none;
+    text-shadow:1px 1px 1px #de358f;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+button:active {
+    border-radius:42px;
+    position:relative;
+    top:5px;
+}
+
+a.btn:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 22pt;
+    text-shadow:1px 2px 1px #48abdb;
+}
+
+a.btn:visited {
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow:1px 2px 1px #48abdb;
+    color: white;
+}
+
+a.btn:hover {
+    text-decoration: none;
+    color: #fc7cc0;
+    font-weight: bold;
+    text-shadow:1px 1px 1px #d750b1;
+}
+
+/* cloud  */
+i.fas {
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff91cc), to(#ffad85));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:drop-shadow(2px 2px #48abdb);
+}
+
+
+

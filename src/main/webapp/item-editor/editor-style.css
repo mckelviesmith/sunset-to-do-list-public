@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@500&display=swap');
+html {
+    min-height: 100%;
+}
+
+*:focus {
+    outline: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+div {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #61c2f2;
+}
+
+input {
+    padding: 10px;
+    border-radius: 24px;
+    border:4px solid #f96ab6;
+    grid-column: 2 / 3;
+    font-size: 16pt;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ff9fd2
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    grid-column: 1 / 2;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-family: 'Quicksand', sans-serif;
+}
+
+div.form-group {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    text-align: center;
+    font-size: 28pt;
+    color: white;
+    text-shadow:1px 2px 1px #48abdb;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/* modifying: */
+h1 {
+    font-size: 40pt;
+    color: white;
+    font-weight: bold;
+    text-shadow:1px 2px 1px #48abdb;
+}
+
+
+#all a:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 22pt;
+    text-shadow:1px 2px 1px #48abdb;
+}
+
+#all a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow:1px 2px 1px #48abdb;
+    color: white;
+}
+
+#all a:hover {
+    text-decoration: none;
+    color: #fc7cc0;
+    font-weight: bold;
+    text-shadow:1px 1px 1px #d750b1;
+}
+
+/* modify button */
+button {
+    box-shadow:1px 1px #d750b1;
+    background: #fc7cc0;
+    border-radius:42px;
+    border:1px solid #fa8ed6;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-size:24px;
+    padding:10px 20px;
+    text-decoration:none;
+    text-shadow:1px 1px 1px #de358f;
+    margin-top: 20px;
+}
+
+
+button:active {
+    border-radius:42px;
+    position:relative;
+    top:5px;
+}
+
+/* arrow */
+#back a.fas {
+    cursor:pointer;
+    padding-left: 5px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff91cc), to(#ffad85));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:drop-shadow(2px 2px #48abdb);
+}
+
+#back {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+
