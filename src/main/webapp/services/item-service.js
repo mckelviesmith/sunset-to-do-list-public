@@ -1,16 +1,9 @@
 // URLs
-const FIND_ALL_ITEMS = "https://sunset-to-do-list.herokuapp.com//findAllItems"
-const FIND_ITEM_BY_ID = "https://sunset-to-do-list.herokuapp.com//findItemById"
-const CREATE_ITEM_URL = "https://sunset-to-do-list.herokuapp.com//createItem"
-const DELETE_ITEM_URL = "https://sunset-to-do-list.herokuapp.com//deleteItem"
-const UPDATE_ITEM = "https://sunset-to-do-list.herokuapp.com//updateThisItem"
-
-/* if hosted locally
-const FIND_ALL_ITEMS = "http://localhost:8080/findAllItems"
-const FIND_ITEM_BY_ID = "http://localhost:8080/findItemById"
-const CREATE_ITEM_URL = "http://localhost:8080/createItem"
-const DELETE_ITEM_URL = "http://localhost:8080/deleteItem"
-const RENAME_ITEM = "http://localhost:8080/renameItem" */
+const FIND_ALL_ITEMS = "https://sunsettodolist-public.herokuapp.com//findAllItems"
+const FIND_ITEM_BY_ID = "https://sunsettodolist-public.herokuapp.com//findItemById"
+const CREATE_ITEM_URL = "https://sunsettodolist-public.herokuapp.com//createItem"
+const DELETE_ITEM_URL = "https://sunsettodolist-public.herokuapp.com//deleteItem"
+const UPDATE_ITEM = "https://sunsettodolist-public.herokuapp.com//updateThisItem"
 
 // finds all items
 const findAllItems = () =>

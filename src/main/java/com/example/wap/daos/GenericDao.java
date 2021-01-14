@@ -9,12 +9,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class GenericDao {
     final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    String host = "us-cdbr-east-02.cleardb.com";
-    String schema = "TodoList";
+    String host = "us-cdbr-east-03.cleardb.com";
+    String schema = "SunsetToDoList";
     final static String CONFIG = "serverTimezone=UTC";
-    String dbUrl = "mysql://b744ef1c29a538:3a122a47@us-cdbr-east-02.cleardb.com/heroku_07c0b2942fd8eda?reconnect=true";
-    String username = "b744ef1c29a538";
-    String password = "3a122a47";
+    String dbUrl = "mysql://bd254ac8726717:3bdcb351@us-cdbr-east-03.cleardb.com/heroku_2433960a88bfd3e?reconnect=true";
+    String username = "bd254ac8726717";
+    String password = "3bdcb351";
 
     String findAllSql = "SELECT * FROM TABLE";
     String findByIdSql = null;
