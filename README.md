@@ -11,7 +11,7 @@
 
 ## General info
 A simple to do list webapp hosted on heroku
-* Color scheme inspired by my cotton candy sunsets
+* Color scheme inspired by cotton candy sunsets
 * Originally built for my personal use. This is the public version.
 
 
